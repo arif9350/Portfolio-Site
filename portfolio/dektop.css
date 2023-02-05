@@ -1,0 +1,108 @@
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+ 
+/*Navbar Start*/
+.nav-logo{
+    text-align: left;
+}
+.nav-heading h1{
+    text-align: right;
+}
+.nav-menu{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.nav-menu a{
+    margin: 20px 0;
+    padding: 5px 20px;
+    background-color: transparent;
+    font-size: 1rem;
+    transition: .5s;
+}
+.nav-menu a:hover{
+    background-color: transparent;
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+/*Navbar End*/
+
+
+/*Profile Start*/
+.top-weather-icon{
+    position: absolute;
+    right: 100px;
+    width: 120px;
+    transition: width 2s, transform 2s;
+}
+.top-weather-icon:hover{
+    width: 140px;
+}
+.profile-desc h1{
+    font-size: 3.5rem;
+}
+.profile-desc p{
+    width: 50%;
+    margin: 0 auto;
+}
+.bottom-weather-icon{
+    position: absolute;
+    left: 100px;
+    width: 120px;
+    transition: width 2s, transform 2s;
+}
+.bottom-weather-icon:hover{
+    width: 140px;
+}
+/*Profile End*/
+
+
+/*About Me start*/
+.aboutme-image img{
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+}
+/*About Me End*/
+
+
+/*Achievments start*/
+.achievment{
+    padding-right: 50px;
+}
+.contact button{
+    width: 120px;
+}
+
+.contact-link{
+    position: relative;
+}
+.social-icon{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 180px;
+}
+/*Achievment end*/
+
+
+/*Footer start*/
+.footer-menu a{
+    display: inline-block;
+    font-size: .9rem;
+}
+.footer-desc{
+    margin-top: 20px;
+}
+/* Footer end */
